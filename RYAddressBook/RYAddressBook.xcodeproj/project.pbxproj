@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57733BA41AE7AE2000FD71E3 /* THContactBubble.m in Sources */ = {isa = PBXBuildFile; fileRef = 57733B9F1AE7AE2000FD71E3 /* THContactBubble.m */; };
+		57733BA51AE7AE2000FD71E3 /* THContactPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57733BA11AE7AE2000FD71E3 /* THContactPickerView.m */; };
+		57733BA61AE7AE2000FD71E3 /* THBubbleColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 57733BA31AE7AE2000FD71E3 /* THBubbleColor.m */; };
 		57ABC5BB1AE630FE0025C180 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC5BA1AE630FE0025C180 /* main.m */; };
 		57ABC5BE1AE630FE0025C180 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC5BD1AE630FE0025C180 /* AppDelegate.m */; };
 		57ABC5C11AE630FE0025C180 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC5C01AE630FE0025C180 /* ViewController.m */; };
@@ -24,12 +27,6 @@
 		57ABC6071AE641E70025C180 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC5F91AE641E70025C180 /* NSArray+MASAdditions.m */; };
 		57ABC6081AE641E70025C180 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC5FC1AE641E70025C180 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		57ABC6091AE641E70025C180 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC5FE1AE641E70025C180 /* View+MASAdditions.m */; };
-		57ABC6141AE6432E0025C180 /* THContactPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC60C1AE6432E0025C180 /* THContactPickerView.m */; };
-		57ABC6151AE6432E0025C180 /* THContactPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 57ABC60D1AE6432E0025C180 /* THContactPickerViewController.xib */; };
-		57ABC6161AE6432E0025C180 /* THContactTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC60F1AE6432E0025C180 /* THContactTextField.m */; };
-		57ABC6171AE6432E0025C180 /* THContactView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC6111AE6432E0025C180 /* THContactView.m */; };
-		57ABC6181AE6432E0025C180 /* THContactViewStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC6131AE6432E0025C180 /* THContactViewStyle.m */; };
-		57ABC61E1AE646230025C180 /* TableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC61D1AE646230025C180 /* TableViewDataSource.m */; };
 		57ABC6211AE6484F0025C180 /* RYTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC6201AE6484F0025C180 /* RYTableViewCell.m */; };
 		57ABC6241AE64E0F0025C180 /* RYAddressBookModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57ABC6231AE64E0F0025C180 /* RYAddressBookModel.m */; };
 /* End PBXBuildFile section */
@@ -45,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		57733B9E1AE7AE2000FD71E3 /* THContactBubble.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactBubble.h; sourceTree = "<group>"; };
+		57733B9F1AE7AE2000FD71E3 /* THContactBubble.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactBubble.m; sourceTree = "<group>"; };
+		57733BA01AE7AE2000FD71E3 /* THContactPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactPickerView.h; sourceTree = "<group>"; };
+		57733BA11AE7AE2000FD71E3 /* THContactPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactPickerView.m; sourceTree = "<group>"; };
+		57733BA21AE7AE2000FD71E3 /* THBubbleColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THBubbleColor.h; sourceTree = "<group>"; };
+		57733BA31AE7AE2000FD71E3 /* THBubbleColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THBubbleColor.m; sourceTree = "<group>"; };
 		57ABC5B51AE630FE0025C180 /* RYAddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYAddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57ABC5B91AE630FE0025C180 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		57ABC5BA1AE630FE0025C180 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,17 +88,6 @@
 		57ABC5FD1AE641E70025C180 /* View+MASAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
 		57ABC5FE1AE641E70025C180 /* View+MASAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
 		57ABC5FF1AE641E70025C180 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
-		57ABC60B1AE6432E0025C180 /* THContactPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactPickerView.h; sourceTree = "<group>"; };
-		57ABC60C1AE6432E0025C180 /* THContactPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactPickerView.m; sourceTree = "<group>"; };
-		57ABC60D1AE6432E0025C180 /* THContactPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = THContactPickerViewController.xib; sourceTree = "<group>"; };
-		57ABC60E1AE6432E0025C180 /* THContactTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactTextField.h; sourceTree = "<group>"; };
-		57ABC60F1AE6432E0025C180 /* THContactTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactTextField.m; sourceTree = "<group>"; };
-		57ABC6101AE6432E0025C180 /* THContactView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactView.h; sourceTree = "<group>"; };
-		57ABC6111AE6432E0025C180 /* THContactView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactView.m; sourceTree = "<group>"; };
-		57ABC6121AE6432E0025C180 /* THContactViewStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = THContactViewStyle.h; sourceTree = "<group>"; };
-		57ABC6131AE6432E0025C180 /* THContactViewStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = THContactViewStyle.m; sourceTree = "<group>"; };
-		57ABC61C1AE646230025C180 /* TableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewDataSource.h; sourceTree = "<group>"; };
-		57ABC61D1AE646230025C180 /* TableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewDataSource.m; sourceTree = "<group>"; };
 		57ABC61F1AE6484F0025C180 /* RYTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYTableViewCell.h; sourceTree = "<group>"; };
 		57ABC6201AE6484F0025C180 /* RYTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYTableViewCell.m; sourceTree = "<group>"; };
 		57ABC6221AE64E0F0025C180 /* RYAddressBookModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYAddressBookModel.h; sourceTree = "<group>"; };
@@ -236,15 +228,12 @@
 		57ABC60A1AE6432E0025C180 /* THContactPickerView */ = {
 			isa = PBXGroup;
 			children = (
-				57ABC60B1AE6432E0025C180 /* THContactPickerView.h */,
-				57ABC60C1AE6432E0025C180 /* THContactPickerView.m */,
-				57ABC60D1AE6432E0025C180 /* THContactPickerViewController.xib */,
-				57ABC60E1AE6432E0025C180 /* THContactTextField.h */,
-				57ABC60F1AE6432E0025C180 /* THContactTextField.m */,
-				57ABC6101AE6432E0025C180 /* THContactView.h */,
-				57ABC6111AE6432E0025C180 /* THContactView.m */,
-				57ABC6121AE6432E0025C180 /* THContactViewStyle.h */,
-				57ABC6131AE6432E0025C180 /* THContactViewStyle.m */,
+				57733B9E1AE7AE2000FD71E3 /* THContactBubble.h */,
+				57733B9F1AE7AE2000FD71E3 /* THContactBubble.m */,
+				57733BA01AE7AE2000FD71E3 /* THContactPickerView.h */,
+				57733BA11AE7AE2000FD71E3 /* THContactPickerView.m */,
+				57733BA21AE7AE2000FD71E3 /* THBubbleColor.h */,
+				57733BA31AE7AE2000FD71E3 /* THBubbleColor.m */,
 			);
 			name = THContactPickerView;
 			path = Masonry/THContactPickerView;
@@ -254,8 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				57ABC5DF1AE635E20025C180 /* RYAddressBookModel */,
-				57ABC61C1AE646230025C180 /* TableViewDataSource.h */,
-				57ABC61D1AE646230025C180 /* TableViewDataSource.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -359,7 +346,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				57ABC6001AE641E70025C180 /* Info.plist in Resources */,
-				57ABC6151AE6432E0025C180 /* THContactPickerViewController.xib in Resources */,
 				57ABC5C61AE630FE0025C180 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -378,24 +364,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57ABC6161AE6432E0025C180 /* THContactTextField.m in Sources */,
 				57ABC6081AE641E70025C180 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
-				57ABC6141AE6432E0025C180 /* THContactPickerView.m in Sources */,
 				57ABC5C11AE630FE0025C180 /* ViewController.m in Sources */,
 				57ABC6061AE641E70025C180 /* MASViewConstraint.m in Sources */,
 				57ABC5BE1AE630FE0025C180 /* AppDelegate.m in Sources */,
 				57ABC5BB1AE630FE0025C180 /* main.m in Sources */,
-				57ABC6181AE6432E0025C180 /* THContactViewStyle.m in Sources */,
 				57ABC5E31AE6364E0025C180 /* RYPersonInfo.m in Sources */,
 				57ABC6091AE641E70025C180 /* View+MASAdditions.m in Sources */,
 				57ABC6011AE641E70025C180 /* MASCompositeConstraint.m in Sources */,
+				57733BA61AE7AE2000FD71E3 /* THBubbleColor.m in Sources */,
 				57ABC6051AE641E70025C180 /* MASViewAttribute.m in Sources */,
-				57ABC6171AE6432E0025C180 /* THContactView.m in Sources */,
 				57ABC6031AE641E70025C180 /* MASConstraintMaker.m in Sources */,
 				57ABC6211AE6484F0025C180 /* RYTableViewCell.m in Sources */,
-				57ABC61E1AE646230025C180 /* TableViewDataSource.m in Sources */,
 				57ABC6071AE641E70025C180 /* NSArray+MASAdditions.m in Sources */,
 				57ABC6021AE641E70025C180 /* MASConstraint.m in Sources */,
+				57733BA51AE7AE2000FD71E3 /* THContactPickerView.m in Sources */,
+				57733BA41AE7AE2000FD71E3 /* THContactBubble.m in Sources */,
 				57ABC6041AE641E70025C180 /* MASLayoutConstraint.m in Sources */,
 				57ABC5E61AE63CBA0025C180 /* RYAddressBook.m in Sources */,
 				57ABC6241AE64E0F0025C180 /* RYAddressBookModel.m in Sources */,
@@ -585,6 +569,7 @@
 				57ABC5DA1AE630FE0025C180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		57ABC5DB1AE630FE0025C180 /* Build configuration list for PBXNativeTarget "RYAddressBookTests" */ = {
 			isa = XCConfigurationList;
@@ -593,6 +578,7 @@
 				57ABC5DD1AE630FE0025C180 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

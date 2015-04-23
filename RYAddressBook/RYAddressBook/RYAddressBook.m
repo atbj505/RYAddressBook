@@ -17,7 +17,7 @@
 
 @implementation RYAddressBook
 
-NSString* JXSpellFromIndex(int index)
+NSString* SpellFromIndex(int index)
 {
     if (index == 26)
         return @"#";
@@ -25,7 +25,7 @@ NSString* JXSpellFromIndex(int index)
         return [NSString stringWithFormat:@"%c", [@"A" characterAtIndex:0]+index];
 }
 
-int JXIndex(NSString *firstSpell)
+int Index(NSString *firstSpell)
 {
     int i = [firstSpell characterAtIndex:0] - [@"a" characterAtIndex:0];
     
@@ -92,7 +92,7 @@ int JXIndex(NSString *firstSpell)
         
         RYPersonInfo *personInfo = (RYPersonInfo *)obj;
         
-        NSMutableArray *subArr = [arr objectAtIndex:JXIndex(personInfo.firstSpell)];
+        NSMutableArray *subArr = [arr objectAtIndex:Index(personInfo.firstSpell)];
         [subArr addObject:personInfo];
     }
     
